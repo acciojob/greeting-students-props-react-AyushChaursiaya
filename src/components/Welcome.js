@@ -2,10 +2,10 @@
 import React from "react";
 
 const Welcome = ({ name }) => {
-    return (<>
+    return (<div>
         <h1>`this {name}!`</h1>
         <h2>'Welcome to School.'</h2>
-    </>)
+    </div>)
 }
 
 export default Welcome;
